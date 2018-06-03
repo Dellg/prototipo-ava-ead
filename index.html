@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Protótipo AVA - EAD</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="js/funcoes.js"></script>
+  </head>
+  <body>
+    <button id='btCadastro' type='button' onclick=formCadastro()>Cadastrar</button>
+    <button id='btLogin' type='button' onclick=formLogin()>Login</button>
+
+    <div id='formCadastro'>
+      <form action=''>
+        <label>Nome:</label>
+        <input type="text" name="nome"><br>
+        <label>Data de nascimento:</label>
+        <input type="date" name="data"><br>
+        <label>Telefone:</label>
+        <input type="number" name="telefone"><br>
+        <label>Instituição:</label>
+        <input type="text" name="instituicao"><br>
+        <label>E-mail:</label>
+        <input type="email" name="email"><br>
+        <label>Senha:</label>
+        <input type="password" name="senha"><br>
+        <input type="submit" value="Confirmar">
+      </form>
+    </div>
+
+    <div id='formLogin'>
+      <form action=''>
+        <label>ID:</label>
+        <input type="text" name="id"><br>
+        <label>Senha:</label>
+        <input type="password" name="senha"><br>
+        <input type="submit" value="Confirmar">
+      </form>
+    </div>
+  </body>
+</html>
