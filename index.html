@@ -4,17 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Protótipo AVA - EAD</title>
+    <title>RAVA</title>
 
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <script src="js/funcoes.js"></script>
   </head>
   <body>
+    <h1 id='titulo'>RAVA</h1>
+
     <button id='btCadastro' type='button' onclick=formCadastro()>Cadastrar</button>
     <button id='btLogin' type='button' onclick=formLogin()>Login</button>
 
     <div id='formCadastro'>
-      <form action=''>
+      <form action='html/professor/home.html'>
         <label>Nome:</label>
         <input type="text" name="nome"><br>
         <label>Data de nascimento:</label>
@@ -32,7 +34,7 @@
     </div>
 
     <div id='formLogin'>
-      <form action=''>
+      <form action='html/aluno/home.html'>
         <label>ID:</label>
         <input type="text" name="id"><br>
         <label>Senha:</label>

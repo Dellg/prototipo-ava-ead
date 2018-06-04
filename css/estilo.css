@@ -1,6 +1,19 @@
+#titulo {
+  text-align: center;
+  font-family: 'Lithos Pro';
+  font-weight: bold;
+  font-size: 80px;
+  text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
+}
+#subtitulo {
+  text-align: center;
+  font-family: 'Lithos Pro';
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
+}
+
 button {
-  width: 200px;
-  height: 50px;
   border-radius: 5px;
   border: none;
   background: rgba(102, 204, 255, 0.5);
@@ -20,16 +33,63 @@ button:hover {
   background: rgba(0, 153, 230, 0.5);
 }
 
+.btTurma {
+  margin: 3px;
+  margin-bottom: 6px;
+  width: 400px;
+  height: 200px;
+  position: relative;
+  left: 7%;
+}
+
+#btNovaTurma {
+  background: rgba(0, 160, 53, 0.5);
+}
+#btNovaTurma:hover {
+  font-size: 20.2px;
+  text-shadow: 1px 1px 5px black;
+  background: rgba(0, 100, 25, 0.5);
+}
+
+#btHelp {
+  position: absolute;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  right: 2%;
+  bottom: 2%;
+}
+
+#btLogout {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  right: 2%;
+  top: 2%;
+}
+
+#btVoltar {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 2%;
+  top: 2%;
+}
+
 #btCadastro {
+  width: 200px;
+  height: 50px;
   position: absolute;
   right: 51%;
-  top: 15%;
+  top: 27%;
 }
 
 #btLogin {
+  width: 200px;
+  height: 50px;
   position: absolute;
   left: 51%;
-  top: 15%;
+  top: 27%;
 }
 
 input {
@@ -44,6 +104,12 @@ input {
 input[type=submit] {
   width: 40%;
   background: rgba(102, 204, 255, 0.5);
+  color: white;
+  font-family: 'Lithos Pro';
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  text-shadow: 1px 1px 3px black;
   padding: 10px 10px;
   border: none;
   border-radius: 4px;
@@ -61,17 +127,23 @@ label {
   display: inline-block;
 }
 
+#formTurma {
+  position: absolute;
+  left: 35%;
+  top: 25%;
+}
+
 #formCadastro {
   position: absolute;
   right: 40%;
-  top: 25%;
+  top: 35%;
   visibility: hidden;
 }
 
 #formLogin {
-  width: 20.7 %;
+  width: 20.7%;
   position: absolute;
   right: 40%;
-  top: 25%;
+  top: 35%;
   visibility: hidden;
 }
