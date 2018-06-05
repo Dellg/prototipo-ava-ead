@@ -10,24 +10,24 @@
     <script src="~/js/funcoes.js"></script>
   </head>
   <body>
-    <h1 id='subtitulo'>Cria sua nova turma</h1>
+    <h1 id='subtitulo'>Crie uma nova tarefa para a 'Nome da Turma'</h1>
 
     <div id='formTurma'>
       <form action='turma.html'>
-        <label>Nome da Turma:</label>
+        <label>Nome da tarefa:</label>
         <input type="text" name="nome"><br>
         <label>Descrição:</label>
         <input type="text" name="instituicao"><br>
-        <label>Horário:</label>
-        <input type="text" name="horario"><br>
-        <label>Convide os alunos (por e-mail):</label>
-        <input type="text" name="emails"><br>
+        <label>Prazo de entrega:</label>
+        <input type="date" name="prazo"><br>
+        <label>Material de apoio:</label>
+        <input type="file" name="material"><br>
         <input type="submit" value="Confirmar">
       </form>
     </div>
 
     <button id='btHelp' type='button'>?</button>
-    <a href="home.html" target="_parent">
+    <a href="turma.html" target="_parent">
       <button id='btVoltar' type='button'>Voltar</button>
     </a>
     <a href="../../index.html" target="_parent">
