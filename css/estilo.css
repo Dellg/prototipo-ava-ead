@@ -1,13 +1,11 @@
 #titulo {
   text-align: center;
-  font-family: 'Lithos Pro';
   font-weight: bold;
   font-size: 80px;
   text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
 }
 #subtitulo {
   text-align: center;
-  font-family: 'Lithos Pro';
   font-weight: bold;
   font-size: 40px;
   text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
@@ -18,7 +16,6 @@ button {
   border: none;
   background: rgba(102, 204, 255, 0.5);
   color: white;
-  font-family: 'Lithos Pro';
   font-weight: bold;
   font-size: 20px;
   outline: none;
@@ -151,7 +148,6 @@ input[type=submit] {
   width: 40%;
   background: rgba(102, 204, 255, 0.5);
   color: white;
-  font-family: 'Lithos Pro';
   font-weight: bold;
   font-size: 16px;
   outline: none;
@@ -225,14 +221,12 @@ label {
 .prazos {
   position: relative;
   left: 15%;
-  font-family: 'Lithos Pro';
   font-size: 20px;
 }
 
 .notificacao {
   position: relative;
   right: -60%;
-  font-family: 'Lithos Pro';
   font-size: 20px;
 }
 
@@ -243,7 +237,6 @@ label {
   margin-top: 50px;
   width: 100%;
   background: rgba(0, 160, 53, 0.5);
-  font-family: 'Lithos Pro';
   text-shadow: 1px 1px 3px black;
   font-weight: bold;
   text-align: center;
@@ -313,7 +306,6 @@ label {
 /* Fim do calendário do w3schools */
 
 #discussao {
-  font-family: 'Lithos Pro';
   font-weight: bold;
   font-size: 40px;
   text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
@@ -323,7 +315,6 @@ label {
   position: absolute;
   top: 0%;
   right: 15%;
-  font-family: 'Lithos Pro';
   font-weight: bold;
   font-size: 32px;
   text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
@@ -335,7 +326,6 @@ label {
   top: 10%;
   right: 15%;
   margin: 30px;
-  font-family: 'Lithos Pro';
   font-size: 20px;
   padding: 30px;
 }
@@ -351,7 +341,6 @@ label {
 
 .topicos {
   margin: 30px;
-  font-family: 'Lithos Pro';
   font-size: 20px;
   padding: 30px;
 }
@@ -366,7 +355,6 @@ label {
 }
 
 #pessoasOnline {
-  font-family: 'Lithos Pro';
   font-weight: bold;
   font-size: 32px;
   text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
@@ -374,7 +362,6 @@ label {
 }
 .online {
   margin: 30px;
-  font-family: 'Lithos Pro';
   font-size: 20px;
   padding: 30px;
 }
@@ -392,7 +379,6 @@ label {
   position: absolute;
   top: 0%;
   right: 50%;
-  font-family: 'Lithos Pro';
   font-weight: bold;
   font-size: 40px;
   text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
@@ -404,7 +390,6 @@ label {
   top: 10%;
   right: 30%;
   margin: 30px;
-  font-family: 'Lithos Pro';
   font-size: 20px;
   padding: 30px;
 }
