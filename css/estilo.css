@@ -311,3 +311,146 @@ label {
   color: white !important
 }
 /* Fim do calendário do w3schools */
+
+#discussao {
+  font-family: 'Lithos Pro';
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
+  margin: 30px;
+}
+#tituloTopico {
+  position: absolute;
+  top: 0%;
+  right: 15%;
+  font-family: 'Lithos Pro';
+  font-weight: bold;
+  font-size: 32px;
+  text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
+  margin: 30px;
+}
+
+.posts {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  margin: 30px;
+  font-family: 'Lithos Pro';
+  font-size: 20px;
+  padding: 30px;
+}
+.posts li {
+  padding-top: 15px;
+}
+.posts li .pessoa {
+  padding: 5px;
+  border-radius: 15px;
+  background: rgba(0, 160, 53, 0.5);
+  color: white !important
+}
+
+.topicos {
+  margin: 30px;
+  font-family: 'Lithos Pro';
+  font-size: 20px;
+  padding: 30px;
+}
+.topicos li {
+  padding-top: 15px;
+}
+.topicos li .topicoAtivo {
+  padding: 5px;
+  border-radius: 15px;
+  background: rgba(0, 160, 53, 0.5);
+  color: white !important
+}
+
+#pessoasOnline {
+  font-family: 'Lithos Pro';
+  font-weight: bold;
+  font-size: 32px;
+  text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
+  margin: 30px;
+}
+.online {
+  margin: 30px;
+  font-family: 'Lithos Pro';
+  font-size: 20px;
+  padding: 30px;
+}
+.online li {
+  padding-top: 15px;
+}
+.online li .logado {
+  padding: 5px;
+  border-radius: 15px;
+  background: rgba(0, 160, 53, 0.5);
+  color: white !important
+}
+
+#chat {
+  position: absolute;
+  top: 0%;
+  right: 50%;
+  font-family: 'Lithos Pro';
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 0px 12px 30px rgba(0, 153, 230, 0.5);
+  margin: 30px;
+}
+
+.conversa {
+  position: absolute;
+  top: 10%;
+  right: 30%;
+  margin: 30px;
+  font-family: 'Lithos Pro';
+  font-size: 20px;
+  padding: 30px;
+}
+.conversa li {
+  padding-top: 15px;
+}
+.conversa li .pessoa {
+  padding: 5px;
+  border-radius: 15px;
+  background: rgba(0, 160, 53, 0.5);
+  color: white !important
+}
+.conversa li .logado {
+  padding: 5px;
+  position: absolute;
+  right: -70%;
+  border-radius: 15px;
+  background: rgba(0, 100, 25, 0.5);
+  color: white !important
+}
+.conversa li .logadoTexto {
+  padding: 5px;
+  position: absolute;
+  right: -70%;
+  border-radius: 15px;
+  background: rgba(0, 100, 25, 0.5);
+  background: rgba(0, 160, 53, 0.5);
+  color: white !important
+}
+
+#digitando {
+  position: absolute;
+  bottom: 30%;
+  right: 50%;
+}
+
+#mensagem {
+  width: 580px;
+  position: absolute;
+  bottom: 25%;
+  right: 20%;
+}
+
+#enviar {
+  width: 100px;
+  position: absolute;
+  bottom: 25%;
+  right: 12%;
+}

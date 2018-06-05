@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RAVA</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="~/js/funcoes.js"></script>
+  </head>
+  <body>
+    <div id='discussao'>Discussões</div>
+    <ul class="topicos">
+      <li>Bem-Vindos</li>
+      <li><span class="topicoAtivo">Dúvida sobre Exercício</span></li>
+      <li>AVA</li>
+    </ul>
+    <div id='tituloTopico'>Dúvida sobre Exercício</div>
+    <ul class="posts">
+      <li><span class="pessoa">Pessoa 1:</span></li>
+      <ul><li>Eu não entendi a questão 2, alguém poderia explicar?</li></ul>
+      <li><span class="pessoa">Pessoa 2:</span></li>
+      <ul><li>Também estou em dúvida.</li></ul>
+      <li><span class="pessoa">Professor:</span></li>
+      <ul><li>Você só precisa enviar o projeto.</li></ul>
+      <li><span class="pessoa">Pessoa 1:</span></li>
+      <ul><li>Ah tá. Obrigado, professor. :)</li></ul>
+    </ul>
+
+    <input id='mensagem' type="text"><br>
+    <button id='enviar'>Postar</label>
+
+    <a href="chat.html" target="_parent">
+      <button id='btChat' type='button'>Chat</button>
+    </a>
+    <a href="forum.html" target="_parent">
+      <button id='btForum' type='button'>Fórum</button>
+    </a>
+    <button id='btHelp' type='button'>?</button>
+    <a href="index.html" target="_parent">
+      <button id='btLogout' type='button'>Logout</button>
+    </a>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RAVA</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="~/js/funcoes.js"></script>
+  </head>
+  <body>
+    <div id='pessoasOnline'>Online</div>
+    <ul class="online">
+      <li><span class='logado'>Usuário logado</span></li>
+      <li>Fulano</li>
+      <li>Sicrano</li>
+      <li>Beltrano</li>
+    </ul>
+    <div id='chat'>Chat</div>
+    <ul class="conversa">
+      <li><span class="pessoa">Sicrano:</span></li>
+      <ul><li>Oi!</li></ul>
+      <li><span class="pessoa">Fulano:</span></li>
+      <ul><li>oi</li></ul>
+      <li><span class="logado">Usuário logado:</span></li>
+      <ul><li><span class='logadoTexto'>Oi</span></li></ul>
+      <li><span class="pessoa">Fulano:</span></li>
+      <ul><li>vcs terminaram o exercício</li></ul>
+      <ul><li>?</li></ul>
+    </ul>
+
+    <div id='digitando'>Sicrano está digitando...</div>
+    <input id='mensagem' type="text"><br>
+    <button id='enviar'>Enviar</label>
+
+    <button id='btChat' type='button'>Chat</button>
+    <a href="forum.html" target="_parent">
+      <button id='btForum' type='button'>Fórum</button>
+    </a>
+    <button id='btHelp' type='button'>?</button>
+    <a href="index.html" target="_parent">
+      <button id='btLogout' type='button'>Logout</button>
+    </a>
+  </body>
+</html>
