@@ -56,6 +56,20 @@ button:hover {
   font-size: 18.2px;
 }
 
+.btTarefaAluno {
+  margin: 3px;
+  margin-bottom: 15px;
+  width: 400px;
+  height: 100px;
+  font-size: 18px;
+  position: relative;
+  left: 7%;
+}
+
+.btTarefaAluno:hover {
+  font-size: 18.2px;
+}
+
 #btChat {
   position: absolute;
   border-radius: 100px;
@@ -159,10 +173,22 @@ label {
   display: inline-block;
 }
 
+#formQuestoes {
+  position: absolute;
+  left: 35%;
+  top: 25%;
+}
+
 #formTurma {
   position: absolute;
   left: 35%;
   top: 25%;
+}
+
+#notas {
+  position: absolute;
+  left: 10%;
+  top: 20%;
 }
 
 #formCadastro {
@@ -199,6 +225,13 @@ label {
 .prazos {
   position: relative;
   left: 15%;
+  font-family: 'Lithos Pro';
+  font-size: 20px;
+}
+
+.notificacao {
+  position: relative;
+  right: -60%;
   font-family: 'Lithos Pro';
   font-size: 20px;
 }
